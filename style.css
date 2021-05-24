@@ -1,8 +1,29 @@
+html {
+	cursor: url(images/who.png), pointer;
+}
+
 body {
-	text-align: center;
+	height: 3000px;
+	background: linear-gradient(141deg, #eae7f2 0%, #c72cbc 75%);
+	font-family: 'Padauk', sans-serif;
 }
 
 img {
-	max-width: 75%;
-	
+	max-width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+h1, h2 {
+	font-family: 'Righteous', cursive;
+	letter-spacing: .2em;
+	color: #4e3d4c;
+}
+
+h1 {
+}
+
+main {
+	padding-top: 20%;
 }
